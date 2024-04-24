@@ -1,0 +1,234 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover{
+  color : #FF33FF;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+  font-family:'Noto Serif';
+  margin-top: -20px;
+}
+.wrapper00{
+  background-color: #B8E0FF;
+  .wrapper0{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    .wrapper{
+      width: 100%;
+      height: auto;
+      header{
+        background-color: #66CCFF;
+        height: 70px;
+        width: 100%;
+        .title{
+          margin:20px 0px 50px 5%;
+          p{
+            font-family: 'Palatino Linotype';
+            padding: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    .wrapper2{
+      height: 100vh;
+      margin: auto;
+      .page-back{
+        margin: 20px 0;
+      }
+      .name-nav{
+        margin:40px 10% 50px 10%;
+        width:auto;
+        height: auto;
+        background-color: #000033;
+        p{
+          padding: 30px;
+          color: #fff;
+          font-size: 30px;
+          font-weight: bold;
+        }
+      }
+      .main-nav{
+        margin:0 10%;
+        .col-auto{
+          .my-5{
+            .grid-box{
+              margin-top: 50px;
+              width: 100%;
+              height: 400px;
+              display: grid;
+              grid-template-rows: 1fr 1fr;
+              grid-template-columns: 2fr 1fr;
+              gap:5px;
+              .item-title{
+                width: 100%;
+                height: 35px;
+                text-align: center;
+                line-height: 2;
+                background-color: #707070;
+                color: #fff;
+                font-weight: bold;
+              }
+              .chart{
+                border: solid;
+                border-color:1px #707070;
+                grid-row: 1 / 3;
+                grid-column: 1 / 2;
+                position: relative;
+                img{
+                  margin: auto;
+                  display: block;
+                  width:90%;
+                  height: 80%;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -45%);
+                }
+              }
+              .pattern{
+                border: solid;
+                border-color:1px #707070;
+                grid-row: 1 / 2;
+                grid-column: 2 / 3;
+                position: relative;
+                img{
+                  margin: auto;
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -30%);
+                  width:auto;
+                  height: 60%;
+                }
+              }
+              .arrow{
+                border: solid;
+                border-color:1px #707070;
+                grid-row: 2 / 3;
+                grid-column: 2 / 3;
+                position: relative;
+                img{
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -25%);
+                  margin: auto;
+                  display: block;
+                  width:65%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
